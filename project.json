@@ -12,7 +12,9 @@
     "UiPath.PDF.Activities": "[3.20.1]",
     "UiPath.System.Activities": "[24.11.0-preview]",
     "UiPath.Testing.Activities": "[24.10.3]",
-    "UiPath.UIAutomation.Activities": "[24.11.1-preview]",
+    "UiPath.UIAutomation.Activities": "[24.12.1-preview]",
+    "UiPath.UIAutomation.Activities.Design.RecoveryPanel": "[24.12.1-preview]",
+    "UiPath.UIAutomation.Activities.Runtime.Design": "[24.12.1-preview]",
     "UiPath.WebAPI.Activities": "[1.21.0]"
   },
   "webServices": [],
