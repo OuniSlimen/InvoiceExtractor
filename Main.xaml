@@ -114,6 +114,9 @@
   <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="845.6000000000001,1822.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:IEnumerable(str:Match)" Name="productMatches" />
+      <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="InvoiceData" />
+      <Variable x:TypeArguments="x:String" Name="InvoiceDate" />
+      <Variable x:TypeArguments="scg:List(scg:Dictionary(x:String, x:Object))" Name="productsList" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -138,7 +141,6 @@
             <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="483.2,1429.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="ExtractedText" />
-                <Variable x:TypeArguments="x:String" Name="InvoiceDate" />
                 <Variable x:TypeArguments="x:String" Name="ClientName" />
                 <Variable x:TypeArguments="x:String" Name="InvoiceData" />
               </Sequence.Variables>
