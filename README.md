@@ -25,7 +25,7 @@ This project is a **UiPath automation** solution designed to extract key informa
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/invoice-data-extraction-bot.git
+   git clone https://github.com/OuniSlimen/InvoiceExtractor.git
    ```
 
 2. **Open the Project**:
